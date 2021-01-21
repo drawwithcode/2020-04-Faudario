@@ -71,7 +71,6 @@ function setup() {
   //greeting user with name
   greeting = createElement("h2", "HELLO " + name);
   greeting.style('font-size', '80px');
-  // greeting.style('font-family', 'neue-haas-grotesk-display');
   greeting.style('color', 'coral');
   greeting.position(150, 120)
   greeting.style('margin-top', '0px')
@@ -80,12 +79,9 @@ function setup() {
   //paragraph month
   pMonth = createElement('h1', "What month <br> were you born in?")
   pMonth.style('font-size', '20px');
-  // pMonth.style('font-family', 'neue-haas-grotesk-display');
   pMonth.style('color', 'coral');
-  // pMonth.style('margin-left', '150px');
   pMonth.style('font-weight', '100');
   pMonth.position(60, 260)
-  // pMonth.style('margin-bottom', '150px')
   pMonth.style('text-transform', 'uppercase')
   pMonth.style('textAlign', 'RIGHT')
 
@@ -113,12 +109,9 @@ function setup() {
   //paragrafo sign
   pSign = createElement('h1', "What's your <br>star sign?");
   pSign.style('font-size', '20px');
-  // pSign.style('font-family', 'neue-haas-grotesk-display');
   pSign.style('color', 'coral');
-  // pSign.style('margin-left', '150px');
   pSign.style('font-weight', '100');
   pSign.position(630, 260)
-  // pSign.style('margin-bottom', '150px')
   pSign.style('text-transform', 'uppercase')
 
   //dropdown sign
@@ -150,10 +143,8 @@ function setup() {
   submitButton.style("cursor", "pointer")
   submitButton.style("font-size", "20px");
   submitButton.style("width", "290px");
-  // submitButton.style("font-family", myFont);
   submitButton.style("padding", "8px 20px 8px 20px");
   submitButton.style("border-radius", "15px");
-  //submitButton.style("border-style", "solid");
   submitButton.style("border-color", "coral");
   submitButton.style("border-width", "2px");
   submitButton.position(300, 370);
@@ -162,7 +153,7 @@ function setup() {
 
 
 
-  //funzione che fa tutto (canzoni e immagini)
+  //results function
   function result() {
 
 
@@ -206,7 +197,7 @@ function setup() {
       parMonth = createButton(aprilTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -214,7 +205,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -222,7 +213,7 @@ function setup() {
       parSign = createButton(ariesTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -230,7 +221,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -270,7 +261,7 @@ function setup() {
       parMonth = createButton(aprilTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -278,7 +269,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -286,7 +277,7 @@ function setup() {
       parSign = createButton(taurusTxt);
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -294,7 +285,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
 
@@ -335,7 +326,7 @@ function setup() {
       parMonth = createButton(mayTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -343,7 +334,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -351,7 +342,7 @@ function setup() {
       parSign = createButton(taurusTxt);
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -359,7 +350,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
 
@@ -401,7 +392,7 @@ function setup() {
       parMonth = createButton(mayTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -409,7 +400,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -417,7 +408,7 @@ function setup() {
       parSign = createButton(geminiTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -425,7 +416,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -466,7 +457,7 @@ function setup() {
       parMonth = createButton(juneTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -474,7 +465,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -482,7 +473,7 @@ function setup() {
       parSign = createButton(geminiTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -490,7 +481,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -531,7 +522,7 @@ function setup() {
       parMonth = createButton(juneTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -539,7 +530,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -547,7 +538,7 @@ function setup() {
       parSign = createButton(cancerTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -555,7 +546,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -596,7 +587,7 @@ function setup() {
       parMonth = createButton(julyTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -604,7 +595,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -612,7 +603,7 @@ function setup() {
       parSign = createButton(cancerTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -620,7 +611,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -661,7 +652,7 @@ function setup() {
       parMonth = createButton(julyTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -669,7 +660,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -677,7 +668,7 @@ function setup() {
       parSign = createButton(leoTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -685,7 +676,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -726,7 +717,7 @@ function setup() {
       parMonth = createButton(augustTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -734,7 +725,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -742,7 +733,7 @@ function setup() {
       parSign = createButton(leoTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -750,7 +741,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -791,7 +782,7 @@ function setup() {
       parMonth = createButton(augustTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -799,7 +790,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -807,7 +798,7 @@ function setup() {
       parSign = createButton(virgoTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -815,7 +806,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -856,7 +847,7 @@ function setup() {
       parMonth = createButton(septemberTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -864,7 +855,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -872,7 +863,7 @@ function setup() {
       parSign = createButton(virgoTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -880,7 +871,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -921,7 +912,7 @@ function setup() {
       parMonth = createButton(septemberTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -929,7 +920,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -937,7 +928,7 @@ function setup() {
       parSign = createButton(libraTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -945,7 +936,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -986,7 +977,7 @@ function setup() {
       parMonth = createButton(octoberTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -994,7 +985,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -1002,7 +993,7 @@ function setup() {
       parSign = createButton(libraTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -1010,7 +1001,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -1051,7 +1042,7 @@ function setup() {
       parMonth = createButton(octoberTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -1059,7 +1050,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -1067,7 +1058,7 @@ function setup() {
       parSign = createButton(scorpioTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -1075,7 +1066,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -1116,7 +1107,7 @@ function setup() {
       parMonth = createButton(novemberTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -1124,7 +1115,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -1132,7 +1123,7 @@ function setup() {
       parSign = createButton(scorpioTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -1140,7 +1131,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -1181,7 +1172,7 @@ function setup() {
       parMonth = createButton(novemberTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -1189,7 +1180,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -1197,7 +1188,7 @@ function setup() {
       parSign = createButton(sagittariusTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -1205,7 +1196,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -1246,7 +1237,7 @@ function setup() {
       parMonth = createButton(decemberTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -1254,7 +1245,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -1262,7 +1253,7 @@ function setup() {
       parSign = createButton(sagittariusTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -1270,7 +1261,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -1311,7 +1302,7 @@ function setup() {
       parMonth = createButton(decemberTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -1319,7 +1310,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -1327,7 +1318,7 @@ function setup() {
       parSign = createButton(capricornTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -1335,7 +1326,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -1376,7 +1367,7 @@ function setup() {
       parMonth = createButton(januaryTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -1384,7 +1375,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -1392,7 +1383,7 @@ function setup() {
       parSign = createButton(capricornTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -1400,7 +1391,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -1441,7 +1432,7 @@ function setup() {
       parMonth = createButton(januaryTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -1449,7 +1440,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -1457,7 +1448,7 @@ function setup() {
       parSign = createButton(aquariusTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -1465,7 +1456,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -1506,7 +1497,7 @@ function setup() {
       parMonth = createButton(februaryTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -1514,7 +1505,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -1522,7 +1513,7 @@ function setup() {
       parSign = createButton(aquariusTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -1530,7 +1521,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -1571,7 +1562,7 @@ function setup() {
       parMonth = createButton(februaryTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -1579,7 +1570,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -1587,7 +1578,7 @@ function setup() {
       parSign = createButton(piscesTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -1595,7 +1586,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -1636,7 +1627,7 @@ function setup() {
       parMonth = createButton(marchTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -1644,7 +1635,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -1652,7 +1643,7 @@ function setup() {
       parSign = createButton(piscesTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -1660,7 +1651,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
@@ -1701,7 +1692,7 @@ function setup() {
       parMonth = createButton(marchTxt);
       parMonth.style('font-size', '24px');
       parMonth.style('color', 'coral')
-      //  parMonth.style('font-family', 'neue-haas-grotesk-display')
+
       parMonth.style('font-weight', 200);
       parMonth.position(120, 850);
       parMonth.style("width", "290px");
@@ -1709,7 +1700,7 @@ function setup() {
       parMonth.style('z-index', '+1');
       parMonth.style('border-style', 'none');
       parMonth.style('background-color', 'white');
-      //parMonth.style('padding-right', '1200px');
+
       parMonth.style('z-index', '-1')
       parMonth.style('textAlign', 'CENTER')
 
@@ -1717,7 +1708,7 @@ function setup() {
       parSign = createButton(ariesTxt)
       parSign.style('font-size', '24px');
       parSign.style('color', 'coral')
-      //  parApril.style('font-family', 'neue-haas-grotesk-display')
+
       parSign.style('font-weight', 200);
       parSign.position(485, 850);
       parSign.style("width", "290px");
@@ -1725,7 +1716,7 @@ function setup() {
       parSign.style('z-index', '+1');
       parSign.style('border-style', 'none');
       parSign.style('background-color', 'white');
-      //parSign.style('padding-right', '500px');
+
       parSign.style('z-index', '-1')
       parSign.style('textAlign', 'CENTER')
     }
