@@ -47,7 +47,7 @@ function setup() {
   submitButton.style("padding", "8px 20px 8px 20px")
 submitButton.style('margin-left', '30px')
 
-  submitButton.mouseClicked(goTo);
+  submitButton.mouseClicked(letsGo);
 
 
 }
@@ -62,10 +62,10 @@ function draw() {
 
 }
 
-function goTo(){
+function letsGo(){
   if(nameInput.value() != ""){
  name = nameInput.value();
-    window.open(url.origin + '/2020-04-Faudario/index2.html?name=' + name, "_self");
+    window.open(url.origin + './index2.html?name=' + name, "_self");
 
   }
 }
