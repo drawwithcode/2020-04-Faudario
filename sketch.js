@@ -65,7 +65,7 @@ function draw() {
 function letsGo(){
   if(nameInput.value() != ""){
  name = nameInput.value();
-    window.open(url.origin + './index2.html?name=' + name, "_self");
+    window.open(url.origin + '/2020-04-Faudario/index2.html?name=' + name, "_self");
 
   }
 }
